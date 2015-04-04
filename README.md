@@ -2,9 +2,9 @@
 
 Demonstrates bug with Docker and OverlayFS when using unix domain sockets (via supervisord).
 
-Docker 1.5.0
-Kernel Version: 3.18.4-031804-generic
-Operating System: Ubuntu 14.10
+* Docker 1.5.0
+* Kernel Version: 3.18.4-031804-generic
+* Operating System: Ubuntu 14.10
 
 # Under device-mapper
 

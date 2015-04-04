@@ -6,7 +6,7 @@ Demonstrates bug with Docker and OverlayFS when using unix domain sockets (via s
 * Kernel Version: 3.18.4-031804-generic
 * Operating System: Ubuntu 14.10
 
-# Under device-mapper
+# With device-mapper
 
 `docker build -t docker-overlay .`
 
@@ -28,7 +28,7 @@ Demonstrates bug with Docker and OverlayFS when using unix domain sockets (via s
 2015-04-04 17:15:23,863 INFO stopped: sleep (terminated by SIGTERM)
 ```
 
-# Under overlay (on extfs)
+# With overlayfs (on extfs)
 
 `docker build -t docker-overlay .`
 

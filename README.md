@@ -28,11 +28,11 @@ Demonstrates bug with Docker and OverlayFS when using unix domain sockets (via s
 2015-04-04 17:15:23,863 INFO stopped: sleep (terminated by SIGTERM)
 ```
 
+# Under overlay (on extfs)
+
 `docker build -t docker-overlay .`
 
 `docker run -t -i docker-overlay`
-
-# Under overlay (on extfs)
 
 ```
 2015-04-04 17:11:45,976 CRIT Supervisor running as root (no user in config file)

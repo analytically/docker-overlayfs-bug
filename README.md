@@ -2,9 +2,14 @@
 
 Demonstrates bug with Docker and OverlayFS when using unix domain sockets (via supervisord).
 
+Docker 1.5.0
+Kernel Version: 3.18.4-031804-generic
+Operating System: Ubuntu 14.10
+
 # Under device-mapper
 
 `docker build -t docker-overlay .`
+
 `docker run -t -i docker-overlay`
 
 ```
@@ -24,6 +29,7 @@ Demonstrates bug with Docker and OverlayFS when using unix domain sockets (via s
 ```
 
 `docker build -t docker-overlay .`
+
 `docker run -t -i docker-overlay`
 
 # Under overlay (on extfs)
